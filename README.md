@@ -64,8 +64,7 @@ IPv4 子网掩码：255.255.255.0
 ## 添加订阅
 ## 打开开关
 
-
-
-
+# 第七步
 修改网路-防火墙-自定义规则添加 iptables -t nat -I POSTROUTING -o eth0 -j MASQUERADE
+
 
