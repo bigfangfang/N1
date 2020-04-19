@@ -5,10 +5,12 @@
 
 # 第二步：
 下载固件
-https://drive.google.com/file/d/1gOeQGgXTdh7QIKer2xIlh6-hq-ouW_GL/view?usp=sharing
-或者 ：N1-Openwrt_U盘直刷包：
+谷歌网盘：https://drive.google.com/file/d/1gOeQGgXTdh7QIKer2xIlh6-hq-ouW_GL/view?usp=sharing
+
+百度网盘
     链接：https://pan.baidu.com/s/1K0bNItsY1-Br4o1EsRokkg
     提取码：lidf 
+    
     找到最新版本 N1_Openwrt_R20.4.8_k5.4.32-flippy-34+o.img.xz
 
 
@@ -67,4 +69,5 @@ IPv4 子网掩码：255.255.255.0
 # 第七步
 修改网路-防火墙-自定义规则添加 iptables -t nat -I POSTROUTING -o eth0 -j MASQUERADE
 
+#观看youtube
 
