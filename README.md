@@ -69,5 +69,5 @@ IPv4 子网掩码：255.255.255.0
 # 第七步
 修改网路-防火墙-自定义规则添加 iptables -t nat -I POSTROUTING -o eth0 -j MASQUERADE
 
-#观看youtube
+# 观看youtube
 
